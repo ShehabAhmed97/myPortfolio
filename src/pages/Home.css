@@ -1,0 +1,63 @@
+:root{
+    --primary-white:#fff;
+    --primary-red: rgb(116, 38, 38);
+    --primary-dark:rgba(225,225,225,0);
+  }
+  
+  /********************** MENU LINKS  ***************************/
+  
+  nav{
+    z-index:2;
+  }
+  nav a.nav-link{
+    font-weight:500;
+    letter-spacing:.0375rem;
+    cursor:pointer;
+  }
+  
+  nav ul li {
+    text-transform:uppercase
+  }
+  
+  .navbar-nav > li > a {
+    color: var(--primary-white) !important;
+    margin-left: .75rem;
+    margin-right: .75rem;
+    border-bottom: .1875rem solid var(--primary-dark) !important;
+  }
+  
+   .navbar-nav>li>a.active, .navbar-nav > li> a:focus, .navbar-nav > li> a:hover{
+    border-bottom: .1875rem solid var(--primary-red) !important;
+  }
+  
+  /********************** header  ***************************/
+  
+  .header-wraper{
+    position:relative;
+    background: url(bg.jpg) no-repeat;
+    background-size: 100vw 100vh;
+    background-position:center ;
+    height: 100vh;
+  }
+  .main-info{
+    display: flex;
+    position: absolute;
+    top:0 ; left:0 ; right:0 ;bottom:0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index:1;
+  }
+  
+  .typed-text{
+    font-size: 2rem;
+    color:var(--primary-red)
+  }
+  
+  .tsparticles-canvas-el{
+    position:absolute;
+    height:100vh;
+    width:100vw;
+    z-index:1
+  }

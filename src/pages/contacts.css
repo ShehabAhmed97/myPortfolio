@@ -1,0 +1,11 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.contacts-container > h1{
+    margin: 55px;
+    padding:55px;
+}
