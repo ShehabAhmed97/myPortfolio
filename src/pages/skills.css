@@ -1,8 +1,38 @@
 .skills-container{
-    display: flex;
-    flex-direction: column;
     height:100vh;
 }
 .skills-container > h1{
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 3vh;
+}
+.wrapper{
+    text-align: center;
+}
+
+.icon{
+    font-size: 35vh;
+}
+.icon-blue{
+    font-size: 35vh;
+    color:rgb(26, 116, 219)
+}
+.icon-orange{
+    font-size: 35vh;
+    color:rgb(255, 81, 0)
+}
+.icon-yellow{
+    font-size: 35vh;
+    color:rgb(255, 230, 0)
+}
+.icon-purple{
+    font-size: 35vh;
+    color:rgb(69, 12, 102)
+}
+.icon-pink{
+    font-size: 35vh;
+    color:rgb(168, 70, 127)
+}
+.icon-red{
+    font-size: 35vh;
+    color:rgb(204, 25, 19)
 }
