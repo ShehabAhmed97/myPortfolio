@@ -29,7 +29,7 @@ const portfolio = () => {
                          it involves a lot of javascript, dom manibulations and animations
                         </Card.Text>
                         <Card.Link href="https://github.com/ShehabAhmed97/memory-game.git" target="_blank">github link</Card.Link>
-                        <Card.Link href="https://shehabahmed97.github.io/memory-game/" target="_blank">Website link</Card.Link>
+                        <Card.Link href="####" target="_blank">Website link</Card.Link>
                     </Card.Body>
                 </Card>
 
@@ -41,7 +41,6 @@ const portfolio = () => {
                          This a portfolio website, made with react.js and react-bootstrap
                         </Card.Text>
                         <Card.Link href="https://github.com/ShehabAhmed97/myPortfolio.git" target="_blank">github link</Card.Link>
-                        <Card.Link href="https://shehabahmed97.github.io/myPortfolio/" target="_blank">Website link</Card.Link>
                     </Card.Body>
                 </Card>
             </CardGroup>

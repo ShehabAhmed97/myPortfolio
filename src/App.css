@@ -8,4 +8,5 @@ html{
 body{
   font-family: 'New Tegomin', serif !important;
   background: url("./bg2.jpg") repeat;
+  background-color: rgba(0, 0, 0, 0.219) !important;
 }
