@@ -1,5 +1,6 @@
 .skills-container{
     height:100vh;
+    text-align:center
 }
 .skills-container > h1{
     padding-top: 100px;
