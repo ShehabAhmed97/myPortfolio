@@ -44,6 +44,20 @@ const portfolio = () => {
                     </Card.Body>
                 </Card>
             </CardGroup>
+            <CardGroup>
+               <Card style={{ width: '18rem' }}>
+                    <Card.Body className="cards">
+                        <Card.Title>Awesome Recipe</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">functional interactive React website</Card.Subtitle>
+                        <Card.Text>
+                            This is a small app that contains three main recipes, user can remove or add new recipes to the app, by filling
+                            in a form.
+                            the app was build using react, reactbootstrap, and some inline styling with vanilla css.
+                        </Card.Text>
+                        <Card.Link href="https://awsomerecipe.github.io/RecipeApp/" target="_blank">Website link</Card.Link>
+                    </Card.Body>
+                </Card>
+            </CardGroup>
 
         </div>
     )
